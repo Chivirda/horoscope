@@ -29,7 +29,7 @@ console.log("12 - Рыбы")
 
 rl.question("Выберите свой знак зодиака: ", answer => {
     if (answer > 0 && answer <= 12) {
-        console.log(first[getRnd(5)], second[getRnd(5)], secondAdd[getRnd(5)], third[getRnd(5)])
+        console.log(first[getRnd(first.length)], second[getRnd(second.length)], secondAdd[getRnd(secondAdd.length)], third[getRnd(third.length)])
     } else console.log("Выберите один из знаков зодиака")
 
     rl.close()    
